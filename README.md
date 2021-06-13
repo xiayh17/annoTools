@@ -16,14 +16,6 @@ devtools::install_github('xiayh17/devtools')
 ### Example
 
 ``` r
-# analyse
-enrichKK <- enrichKEGG(gene         =  gene_up,
-                       organism     = 'hsa',
-                       #universe     = gene_all,
-                       pvalueCutoff = 0.1,
-                       qvalueCutoff = 0.1,
-                       use_internal_data = T)
-
 # make name readable
 library(clusterProfiler)
 library(org.Hs.eg.db)
