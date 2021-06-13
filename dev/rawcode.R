@@ -3,7 +3,7 @@ rm(list = ls())  ## 魔幻操作，一键清空~
 options(stringsAsFactors = F)
 library(clusterProfiler)
 library(org.Hs.eg.db)
-library(KEGG.db)
+# library(KEGG.db)
 
 surGenes = read.table('dev/genelist.txt')[,1]#change dataframe to vector
 head(surGenes)
