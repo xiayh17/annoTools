@@ -44,4 +44,4 @@ enrichKK <- DOSE::setReadable(enrichKK, OrgDb='org.Hs.eg.db',keyType='ENTREZID')
 cneteplot(enrichKK)
 ```
 
-[![example](dev/example.svg "example")](https://cdn.jsdelivr.net/gh/xiayh17/annoTools@main/dev/example.svg)
+<img src="https://cdn.jsdelivr.net/gh/xiayh17/annoTools@main/dev/example.svg"/>
